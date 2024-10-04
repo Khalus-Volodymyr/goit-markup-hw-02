@@ -22,6 +22,7 @@ a {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -97,6 +98,12 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -106,7 +113,7 @@ a {
 .principles-section {
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -118,7 +125,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 .principles-list {
 }
@@ -157,12 +164,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
 }
 
 .team-member {
+  background-color: #fff;
 }
 
 .team-photo {
@@ -211,6 +220,9 @@ a {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-description {
